@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    height: 15vh;
+    position: fixed; z-index:3;
+    width: 100%;
+    background-color: #B8DEF1;
+}
+
+.navegacion{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu>li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: black;
+    transition: all .3s;
+}
+
+
+.submenu{
+    position: absolute;
+    background-color: #B8DEF1;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open Sans', Helvetica;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: #A8D4E2;
+}
+
+.copyright {
+  padding: 3vh;
+  font-family: 'Open Sans', Helvetica;
+  font-size: 16px;
+  color: white;
+}
+
+.boton {
+  width: 35px;
+  height: 35px;
+}
+.navegacion img{
+  height: 15vh;
+}
+
+.logo {
+  width: 4vh;
+}

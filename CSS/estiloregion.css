@@ -1,0 +1,82 @@
+body {
+  background-color: #D4EBF6;
+}
+
+.titulo h1 {
+  text-align: center;
+  font-family: 'Open Sans', Helvetica;
+  font-size: 30px;
+  margin: auto;
+  text-decoration: none;
+  font-weight: lighter;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+}
+
+  h2 {
+  font-family: 'Open Sans', Helvetica;
+  font-size: 20px;
+}
+
+  p {
+  text-align: justify;
+}
+
+.clima, .economia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.relieve, .turismo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto, .descripcion{
+  width: 40vw;
+}
+
+.circulo{
+  width: 20vw;
+}
+
+.foto, .circulo, .descripcion {
+  margin: 10px auto;
+  padding: 3vh;
+  font-family: 'Open Sans', Helvetica;
+}
+
+.foto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto img {
+  width: 500px;
+  height: 300px;
+  border-radius: 3%;
+}
+
+.circulo {
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100px;
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacion ul{
+    list-style: none;
+    margin-bottom: 23px;
+}
